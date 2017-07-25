@@ -69,7 +69,7 @@ padding-bottom: 10px;
 }
 
 .files_doc .img_file{
-background: url(/img/boxes/doc_bg.png) no-repeat;
+background: url(../img/boxes/doc_bg.png) no-repeat;
     width: 95px;
     height: 116px;
     box-shadow: inset 0px -5.1px 0px 0px rgba(103, 104, 90, 0.65);
@@ -79,7 +79,7 @@ background: url(/img/boxes/doc_bg.png) no-repeat;
 
 }
 .files_photo .img_file{
-    background: url(/img/boxes/photo_bg.png) no-repeat;
+    background: url(../img/boxes/photo_bg.png) no-repeat;
     width: 103px;
     height: 116px;
     box-shadow: inset 0px -4.6px 0px 0px rgba(103, 104, 90, 0.65);
