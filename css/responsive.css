@@ -1,0 +1,14 @@
+@media screen and (max-width:991px){
+    .files_doc .box, .files_photo .box{
+        margin-left: 0;
+    }
+    .files_doc, .files_photo{
+        text-align: center;
+    }
+    .download{
+        text-align: center;
+    }
+    .download p{
+        text-align: left;
+    }
+}
