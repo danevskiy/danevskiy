@@ -12,35 +12,56 @@
         text-align: left;
     }
 }
-@media screen and (max-width:580px){
-    form input{
-      min-width: 50px;
-    }
-    form textarea{
-      min-width: 50px;  
-    }
-    .form{
-        min-width:200px;
-    }
+@media screen and (max-width:1168px){
     form{
-        height: 350px;
-        padding: 70px 70px;
+        width:370px;
+        height: 370px;
+        margin-left: -185px;
+        padding: 70px 0;
+    }   
+        form textarea{
+        margin-bottom: 10px;
     }
 }
-@media screen and (max-width:450px){
-    form input{
-      min-width: 50px;
+@media screen and (max-width:420px){
+        form{
+        width:340px;
+        height: 340px;
+        margin-left: -170px;
+    } 
+    form textarea{
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width:375px){
+        form{
+        width:270px;
+        height: 270px;
+        margin-left: -150px;
+            padding: 50px 0;
     }
     form textarea{
-      min-width: 50px; 
-      margin-bottom: 0px;
+        width: 170px;
+        height: 50px;
+        margin-bottom: 0;
     }
-    .form{
-        min-width:200px;
+    form input{
+        width: 170px;
     }
-    form{
-        height: 330px;
-        min-width: 220px;
-        padding: 60px 40px;
+}
+@media screen and (max-width:340px){
+        form{
+        width:230px;
+        height: 270px;
+        margin-left: -115px;
+            padding: 50px 0;
+    }
+    form textarea{
+        width: 170px;
+        height: 50px;
+        margin-bottom: 0;
+    }
+    form input{
+        width: 170px;
     }
 }

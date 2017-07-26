@@ -344,42 +344,41 @@ content: '';
 }
 
 form input{
+    height: 30px;
+    margin: auto;
     background: #fff;
 display: block;
 margin-bottom: 15px;
-    width:100%;
-    max-width: 300px;
-    min-width: 275px;
+    width:280px;
     border:#f0f1f0 solid 2px;
     color:#4c505d;
     font-family: 'Open Sans';
 }
 
 form textarea{
-    width: 100%;
-    max-width: 300px;
-    min-width: 275px;
+    width: 280px;
     height: 80px;
     margin-bottom: 30px;
    border:#f0f1f0 solid 2px;
    color:#4c505d;
     font-family: 'Open Sans';
 }
-.form{
-    margin: auto;
-max-width:500px;
-    min-width: 500px;
-}
+
 form{
-border-radius: 100%;
+    width: 430px;
+    border-radius: 100%;
     background-color: rgb(255, 255, 255);
     opacity: 0.851;
     bottom: 75px;
-    padding: 80px 80px;
-    width: 80%;
-    height: 400px;
+    padding: 120px 0px;
+    text-align: center;
+    height: 430px;
     position: absolute;
+    left:50%;
+    margin-left: -250px;
     z-index: 24;
+   
+}
 }
 
 form p{
