@@ -12,3 +12,35 @@
         text-align: left;
     }
 }
+@media screen and (max-width:580px){
+    form input{
+      min-width: 50px;
+    }
+    form textarea{
+      min-width: 50px;  
+    }
+    .form{
+        min-width:200px;
+    }
+    form{
+        height: 350px;
+        padding: 70px 70px;
+    }
+}
+@media screen and (max-width:450px){
+    form input{
+      min-width: 50px;
+    }
+    form textarea{
+      min-width: 50px; 
+      margin-bottom: 0px;
+    }
+    .form{
+        min-width:200px;
+    }
+    form{
+        height: 330px;
+        min-width: 220px;
+        padding: 60px 40px;
+    }
+}
